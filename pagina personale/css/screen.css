@@ -1,0 +1,261 @@
+aside{
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 200px;
+    right: 20px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+    text-align: center;
+}
+aside a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+aside a:hover{
+    background-color: dodgerblue;
+    color:white;
+}
+.button{
+    text-align: center;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 80px;
+}
+
+#name{
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+}
+#name header{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#name h1{
+    font-size: 5em;
+}
+#name p{
+    font-size: 3em;
+}
+#name hr{
+    width: 50%;
+}
+a{
+    text-decoration: none;
+    color: deepskyblue;
+}
+h2{
+    text-align: center;
+    font-size: 3em;
+}
+article{
+    clear: both;
+}
+header{
+    font-size: 1.5em;
+}
+
+#profile{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#profile header{
+    color: dodgerblue;
+}
+#profile header p{
+    text-align: center;
+    font-size: 1.5em;
+    color: #4e4e4e;
+}
+
+#about-me{
+    text-align: justify;
+    width: 30%;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    vertical-align: top
+}
+
+#photo{
+    text-align: center;
+    width: 40%;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 40px;
+    position: relative;
+    vertical-align: top
+}
+
+#photo img{
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+
+    width: 100%;
+}
+
+#photo figcaption{
+    position: relative;
+    top: -66px;
+    left: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px ;
+    text-align: center;
+}
+#photo:hover figcaption{
+    opacity: 1;
+}
+#details{
+    position: relative;
+    text-align: left;
+    width: 20%;
+    display: inline-block;
+    padding: 10px;
+    line-height: 2em;
+    vertical-align: top
+}
+#details span{
+    font-weight: bold;
+}
+
+.colored-backgroud{
+    background-color: #F3EFE0;
+    color: dodgerblue;
+}
+
+#experiences{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+
+#experiences header p{
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+}
+
+#career{
+    text-align: justify;
+    padding: 10px;
+    background-color:#F3EFE0;
+
+}
+
+.left{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    color: black;
+}
+.right{
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 150px;
+    color: black;
+}
+
+#education{
+    padding-bottom: 20px;
+}
+#abilities{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+#abilities header{
+    color: dodgerblue;
+}
+#abilities header p{
+    text-align: center;
+    font-size: 1.5em;
+    color: #4e4e4e;
+}
+.ability-item{
+    width: 48%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.ability-item-name{
+    float: left;
+    padding: 5px;
+    width: 50%;
+}
+.ability-item-level{
+    float: left;
+    width: 40%;
+    text-align: right;
+}
+#language{
+    padding-bottom: 40px;
+}
+#contact{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+#contact header p{
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+}
+
+footer{
+    text-align: center;
+}
+
+#map{
+    width: 40%;
+    display: inline-block;
+}
+#addresses{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+    text-align: right;
+    font-size: 1.5em;
+    color: black;
+}
+
+@media screen and (max-width: 1500px) {
+    aside {
+        width:100%;
+        top:0px;
+        left:0px;
+    }
+    aside a{
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: inline-block;
+    }
+}
